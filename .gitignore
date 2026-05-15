@@ -1,0 +1,40 @@
+# Virtual Environment
+env/
+venv/
+.venv/
+.venv*/
+*_env/
+env*/
+.env
+
+# Node.js
+node_modules/
+**/node_modules/
+dist/
+build/
+.next/
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation/Backups
+*.docx
+*.bak
+*.log

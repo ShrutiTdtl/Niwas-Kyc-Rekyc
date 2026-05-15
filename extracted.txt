@@ -1,0 +1,284 @@
+📄 Scope of Work (SoW)
+Agentic AI-Based KYC / Re-KYC Automation Platform for Housing Finance
+
+1. 🎯 Objective
+Design and implement an AI-first, agentic KYC platform that:
+Automates end-to-end KYC & Re-KYC lifecycle 
+Ensures 100% compliance with RBI / NHB / PMLA / CKYC norms 
+Supports multi-source, multi-channel customer onboarding 
+Enables real-time validation, fraud detection, and risk scoring 
+Reduces manual intervention by >80% 
+Provides audit-ready, regulator-compliant traceability 
+
+2. 🧠 Solution Overview (Agentic AI Architecture)
+🔷 Transformation Vision
+From:
+Document-based KYC → Digital KYC → Autonomous Agentic KYC Intelligence Platform
+
+3. 🤖 Agentic AI Multi-Agent Framework
+🧠 Core Agents
+
+1. 📥 Customer Intake Agent
+Sources: 
+Direct branch onboarding 
+Digital onboarding (web/mobile apps) 
+DSAs / Channel partners 
+Builders / brokers 
+Co-lending partners 
+Captures: 
+Personal details 
+Property details 
+Financial profile 
+
+2. 📄 Document Intake & OCR Agent
+Accepts: 
+Aadhaar, PAN, Passport, Driving License, Voter ID 
+Utility bills, bank statements, salary slips 
+Capabilities: 
+OCR + AI-based extraction 
+Document classification 
+Multi-language parsing 
+
+3. 🧾 Document Understanding Agent
+Extracts: 
+Name, DOB, Address 
+Document numbers 
+Validates: 
+Cross-document consistency 
+Generates: 
+Structured KYC profile 
+
+4. 🔍 Identity Verification Agent
+Integrates: 
+Aadhaar eKYC (Offline XML / OTP) 
+PAN verification APIs 
+CKYC registry 
+DigiLocker 
+Performs: 
+Face match (selfie vs document) 
+Liveness detection 
+
+5. 🏠 Address Verification Agent
+Verifies: 
+Current & permanent address 
+Methods: 
+Document validation 
+Geo-tagging 
+Field verification triggers 
+
+6. 🧠 Risk Scoring & AML Agent
+Evaluates: 
+Customer risk profile (Low/Medium/High) 
+Checks: 
+Sanctions lists 
+PEP lists 
+Adverse media 
+Assigns: 
+AML risk score 
+
+7. 🔁 Re-KYC & Periodic Review Agent
+Triggers: 
+Periodic KYC updates (as per risk category) 
+Tracks: 
+Expiry of documents 
+Change in customer profile 
+
+8. ⚠️ Fraud Detection Agent
+Detects: 
+Fake documents 
+Identity duplication 
+Suspicious patterns 
+Uses: 
+AI anomaly detection 
+
+9. 📊 Compliance & Audit Agent
+Maintains: 
+Complete audit trail 
+Generates: 
+Regulatory reports 
+KYC compliance dashboards 
+
+10. 📣 Communication Agent
+Sends: 
+KYC reminders 
+Re-KYC alerts 
+Document deficiency notifications 
+
+
+4. 🏘️ Housing Finance–Specific KYC Scenarios
+🔹 Individual Borrowers
+Salaried 
+Self-employed 
+NRI customers 
+🔹 Joint Applicants
+Co-borrowers 
+Co-owners 
+🔹 Property-Linked KYC
+Builder verification 
+Property ownership documents 
+🔹 Loan Types
+Home loan 
+Loan against property (LAP) 
+Construction loans 
+
+5. 🔄 All KYC / Re-KYC Scenarios Covered
+
+🔹 New Customer Onboarding
+Digital onboarding 
+Assisted onboarding (branch/agent) 
+
+🔹 Re-KYC Scenarios
+Periodic KYC update 
+Trigger-based KYC (profile change) 
+
+🔹 High-Risk Customer Monitoring
+Enhanced Due Diligence (EDD) 
+Frequent re-verification 
+
+🔹 Document Deficiency Handling
+Missing documents 
+Expired documents 
+Mismatch cases 
+
+🔹 NRI / Foreign Customer KYC
+Passport validation 
+Overseas address verification 
+
+🔹 CKYC Integration
+Fetch / update CKYC records 
+
+🔹 Video KYC (V-KYC)
+Live video verification 
+Geo-tagging + liveness detection 
+
+🔹 Field Verification
+Physical verification trigger 
+Geo-tagged agent visits 
+
+🔹 Change Requests
+Address change 
+Name update 
+Contact updates 
+
+6. 🔁 End-to-End Workflow Automation
+
+Step 1: Customer Data Capture
+API / UI-based onboarding 
+
+Step 2: Document Upload & Parsing
+AI-based extraction 
+
+Step 3: Identity Validation
+API integrations 
+
+Step 4: Risk Assessment
+AML scoring 
+
+Step 5: Approval Workflow
+Maker-checker system 
+
+Step 6: CKYC Update
+Upload to CKYC registry 
+
+Step 7: Monitoring & Alerts
+Continuous compliance tracking 
+
+7. 🧩 Functional Modules
+KYC Management System 
+Document Management System (DMS) 
+AML & Risk Engine 
+Workflow Engine 
+Case Management System 
+Dashboard & Analytics 
+
+8. 📊 Dashboards
+CXO Dashboard
+KYC completion rate 
+Compliance score 
+Risk distribution 
+Operations Dashboard
+Pending cases 
+Re-KYC alerts 
+Compliance Dashboard
+Audit logs 
+Regulatory reports 
+
+9. 🔐 Security & Compliance
+RBI KYC Master Directions 
+NHB guidelines (for HFCs) 
+PMLA compliance 
+DPDP Act compliance 
+Role-Based Access Control (RBAC) 
+End-to-end encryption 
+Tamper-proof audit logs 
+
+10. ⚙️ Technology Architecture
+Frontend
+Web + Mobile interfaces 
+Backend
+Microservices-based architecture 
+AI Layer
+LLM + ML models: 
+OCR 
+NLP 
+Risk scoring 
+Fraud detection 
+Integration Layer
+APIs with: 
+CKYC 
+Aadhaar 
+PAN 
+Banks 
+
+11. 🚀 Implementation Plan
+Phase 1: Discovery (2–3 Weeks)
+Requirement gathering 
+Regulatory mapping 
+
+Phase 2: PoC (4 Weeks)
+Limited onboarding scenarios 
+
+Phase 3: Pilot (6–8 Weeks)
+Controlled rollout 
+
+Phase 4: Full Deployment (12–16 Weeks)
+Enterprise rollout 
+
+Phase 5: Optimization (Continuous)
+AI model tuning 
+
+12. 📏 KPIs
+KYC turnaround time: < 5 minutes (digital) 
+Automation rate: > 85% 
+Fraud detection improvement: 3x 
+Compliance accuracy: 100% audit-ready 
+
+13. 💰 Business Impact
+Faster onboarding → higher conversions 
+Reduced compliance risk 
+Lower operational cost 
+Improved customer experience 
+
+14. 📦 Deliverables
+Agentic AI KYC Platform 
+AI Models (OCR, AML, Fraud) 
+Dashboards & Reports 
+API Integrations 
+Documentation & Training 
+
+15. ⚠️ Risks & Mitigation
+
+16. 🔮 Future Enhancements
+Continuous KYC (cKYC) 
+Behavioral risk monitoring 
+Voice-based KYC assistant 
+AI-driven underwriting integration 
+
+🧾 Conclusion
+This solution transforms KYC from:
+A compliance requirement → into a real-time intelligent risk & identity platform
+With Agentic AI, the system becomes:
+Self-learning 
+Proactive 
+Autonomous 
+Regulator-ready 

@@ -1,0 +1,19 @@
+{
+  "customer_id": "CUST-DEMO-001",
+  "profile": {
+    "customer_id": "CUST-DEMO-001",
+    "name": "Amit Andre",
+    "age": 45,
+    "monthly_income": 120000,
+    "loan_amount": 4500000,
+    "sanctions_hit": 0,
+    "pep_hit": 0,
+    "adverse_media_hit": 0,
+    "geo_distance_km": 12,
+    "rekyc_overdue_days": 0
+  },
+  "documents": [
+    {"document_type": "PAN", "raw_text": "Name AMIT ANDRE Permanent Account Number AABCA1234F DOB 12/08/1980"},
+    {"document_type": "AADHAAR", "raw_text": "Amit Andre Aadhaar Number 1234 5678 9012 Address Pune Maharashtra DOB 12/08/1980"}
+  ]
+}

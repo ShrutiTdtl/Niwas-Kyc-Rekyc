@@ -1,0 +1,15 @@
+{
+  "name": "agentic-kyc-rekyc-ui",
+  "version": "1.0.0",
+  "description": "Agentic AI-Based KYC / Re-KYC Automation Platform UI with React and Node mock APIs",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && npm --prefix client install && npm --prefix server install",
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "start": "npm --prefix server start",
+    "build": "npm --prefix client run build"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,11 @@
+file_name,field_name,description
+kyc_cases_100000.csv,case_id,Unique KYC/Re-KYC case identifier
+kyc_cases_100000.csv,customer_id,Unique synthetic customer identifier
+kyc_cases_100000.csv,aml_risk_score,AI AML score from 1 to 100
+kyc_cases_100000.csv,risk_category,Low/Medium/High risk band
+kyc_cases_100000.csv,fraud_signal,Synthetic fraud/anomaly signal for AI demonstration
+kyc_documents_sample.csv,ocr_confidence,Synthetic OCR confidence generated for document parsing demos
+workflow_events_sample.csv,workflow_stage,Stage in maker-checker and automated KYC workflow
+audit_logs_sample.csv,tamper_hash,Synthetic tamper-evident audit hash value
+communications_sample.csv,message_category,Reminder/alert/deficiency communication type
+field_verification_sample.csv,geo_match_status,Geo-tagging match result for address/property verification

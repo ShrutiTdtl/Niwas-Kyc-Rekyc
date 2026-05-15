@@ -1,0 +1,14 @@
+{
+  "generated_on": "2026-05-13T08:45:42",
+  "primary_dataset_rows": 100000,
+  "supporting_rows": {
+    "kyc_documents_sample.csv": 150000,
+    "workflow_events_sample.csv": 120000,
+    "audit_logs_sample.csv": 100000,
+    "communications_sample.csv": 60000,
+    "field_verification_sample.csv": 30000
+  },
+  "total_rows_all_csv_files": 560000,
+  "intended_use": "PoC demonstration for Agentic AI KYC/Re-KYC platform UI, Django APIs and AIML layer",
+  "privacy": "Fully synthetic dataset. No real customer data."
+}
