@@ -36,6 +36,11 @@ A modern AI-powered KYC/ReKYC management platform designed to simplify customer 
 
 ---
 
+## link
+-https://tdtlworld.com/rekyc/
+
+---
+
 ## 📁 Project Structure
 
 ```bash
@@ -47,6 +52,5 @@ Niwas-Kyc-Rekyc/
 ├── README.md
 └── requirements.txt
 
-## link
--https://tdtlworld.com/rekyc/
+
 
