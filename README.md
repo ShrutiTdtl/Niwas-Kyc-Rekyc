@@ -46,3 +46,7 @@ Niwas-Kyc-Rekyc/
 ├── uploads/
 ├── README.md
 └── requirements.txt
+
+## link
+-https://tdtlworld.com/rekyc/
+
