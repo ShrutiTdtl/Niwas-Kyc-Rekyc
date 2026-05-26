@@ -1,0 +1,36 @@
+# ----------------------------------------------------
+# Consolidated Requirements for ReKYC Platform
+# ----------------------------------------------------
+
+# --- Django Backend (kyc_platform) ---
+Django==5.0.8
+djangorestframework==3.15.2
+djangorestframework-simplejwt==5.3.1
+django-cors-headers==4.4.0
+drf-spectacular==0.27.2
+python-dotenv==1.0.1
+django-filter==24.2
+Pillow>=10.4.0
+Faker==25.8.0
+mysqlclient==2.2.4
+gunicorn==22.0.0
+whitenoise==6.7.0
+
+# --- AI/ML Layer (aiml_layer) ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pandas==2.2.3
+numpy==2.2.1
+scikit-learn==1.6.0
+joblib==1.4.2
+python-multipart==0.0.20
+# pillow==11.0.0  # Commented out to resolve conflict with Django's Pillow requirement. Using Pillow>=10.4.0
+opencv-python-headless==4.10.0.84
+pytesseract==0.3.13
+rapidfuzz==3.11.0
+networkx==3.4.2
+requests==2.32.3
+pytest==8.3.4
+jupyter==1.1.1
+matplotlib==3.10.0
