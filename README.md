@@ -1,4 +1,3 @@
-content = """
 # Niwas KYC-ReKYC
 
 A modern AI-powered KYC/ReKYC management platform designed to simplify customer verification, document handling, and profile management with secure authentication and role-based access.
